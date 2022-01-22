@@ -1,0 +1,174 @@
+/* Navbar  */
+
+.navigation {
+  /* background-color: red; */
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-1);
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li {
+  list-style: none;
+  padding: 0 8px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  padding: 8px 17px;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.navigation ul li a:hover {
+  color: var(--main-bg-colour);
+  font-weight: bold;
+}
+
+.logo img {
+  width: 10px;
+}
+
+.form-control {
+  padding: 6px 7px;
+  border-radius: 8px;
+  border: 2px solid black;
+  margin: 0px 15px;
+}
+
+.nav-right{
+  display: flex;
+}
+
+/* Landing page */
+
+.content {
+  height: 100%;
+  /* background-color: blue; */
+  display: flex;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  position: absolute;
+  background: url("../static/img/home.jpg");
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.content-left {
+  /* width: 50%; */
+  /* color: white; */
+  font-family: var(--font-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 23px;
+}
+
+.content-left h1 {
+  padding-bottom: 25px;
+}
+
+.content-left p {
+  letter-spacing: 1px;
+}
+
+.content-right {
+  /* width: 50%; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 40px;
+}
+
+.content-right img {
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 32px;
+}
+
+/* Body Content  */
+
+.blog-contents {
+  position: relative;
+}
+
+.year-box {
+  position: absolute;
+
+  height: 100px;
+  /* background-color: red; */
+  right: 10px;
+}
+
+.year-box div {
+  margin: 12px 0;
+}
+
+.year-box input  {
+  margin: 0 4px;
+}
+
+.blog-content {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+.blog-article-img img {
+  width: 300px;
+}
+
+.blog-article-content {
+  padding: 25px;
+}
+
+.blog-article-content div {
+  padding: 10px 0;
+}
+
+.blog-article-content a {
+  text-decoration: none;
+  color: black;
+  font-family: var(--font-2);
+}
+
+/* Footer  */
+
+.footer {
+  height: 45px;
+  background-color: var(--main-bg-colour);
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+footer p {
+  color: black;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,71 @@
+extends base.pug 
+
+block title
+    title blogpost - iCoder 
+
+block scripts
+  script(src='../static/js/script.js')
+
+block style 
+    style
+        include ../static/css/utility.css
+        include ../static/css/style.css
+        include ../static/css/blogpost.css
+        include ../static/css/phone.css 
+
+block content
+    div.post-img.my2
+
+    div.max-width-1.m-auto
+        hr
+
+    div.blogpost.max-width-1.m-auto.my2.font1
+        h1 Heaven For Bloggers
+        div.blogpost-meta
+            div.author-info
+                .font2
+                    b Author - Ankit Purohit 
+                div 04 January. 6 min read
+            div.social
+                img(src="../static/img/social/facebook.svg", alt="facebook")
+                img(src="../static/img/social/instagram.svg", alt="instagram")
+                img(src="../static/img/social/linkedin.svg", alt="linkedin")
+                img(src="../static/img/social/twitter.svg", alt="twitter")
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem nostrum corporis aliquam, aperiam aut corrupti dolore quibusdam sequi earum numquam deserunt cumque? Excepturi illum maxime est eveniet saepe pariatur. Consequatur obcaecati sint facilis? Neque placeat molestias impedit delectus blanditiis illum eligendi consectetur, aliquam obcaecati quo magnam nulla, explicabo fugit ratione autem id ex voluptate maiores cumque incidunt minima quis! Repellat autem rem, adipisci omnis architecto ipsa et id quis consectetur quam reiciendis dignissimos voluptates, inventore commodi asperiores delectus! Labore, tenetur perspiciatis! Velit inventore magnam corrupti quas quis ullam minus labore quisquam, sunt non. Sequi, ipsam! Esse, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam consequuntur repellendus, dicta velit modi et animi adipisci voluptates reiciendis molestias nisi quas sit minima, consequatur nesciunt temporibus quidem inventore. Omnis, corrupti ratione obcaecati esse placeat repellat fuga, earum porro tempore aliquid asperiores! Inventore sequi perspiciatis itaque, voluptate ut, architecto at quasi expedita assumenda cumque fugit provident ratione aliquid quisquam earum a beatae quaerat, aperiam culpa error voluptas. Dicta, eos maiores eligendi doloribus doloremque tempore excepturi dolores aut impedit quasi. Tempore nulla repellat, dicta enim officiis, modi molestiae incidunt fuga tempora eaque rem distinctio reiciendis aut quidem adipisci fugiat. Illum.
+
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem nostrum corporis aliquam, aperiam aut corrupti dolore quibusdam sequi earum numquam deserunt cumque? Excepturi illum maxime est eveniet saepe pariatur. Consequatur obcaecati sint facilis? Neque placeat molestias impedit delectus blanditiis illum eligendi consectetur, aliquam obcaecati quo magnam nulla, explicabo fugit ratione autem id ex voluptate maiores cumque incidunt minima quis! Repellat autem rem, adipisci omnis architecto ipsa et id quis consectetur quam reiciendis dignissimos voluptates, inventore commodi asperiores delectus! Labore, tenetur perspiciatis! Velit inventore magnam corrupti quas quis ullam minus labore quisquam, sunt non. Sequi, ipsam! Esse, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam consequuntur repellendus, dicta velit modi et animi adipisci voluptates reiciendis molestias nisi quas sit minima, consequatur nesciunt temporibus quidem inventore. Omnis, corrupti ratione obcaecati esse placeat repellat fuga, earum porro tempore aliquid asperiores! Inventore sequi perspiciatis itaque, voluptate ut, architecto at quasi expedita assumenda cumque fugit provident ratione aliquid quisquam earum a beatae quaerat, aperiam culpa error voluptas. Dicta, eos maiores eligendi doloribus doloremque tempore excepturi dolores aut impedit quasi. Tempore nulla repellat, dicta enim officiis, modi molestiae incidunt fuga tempora eaque rem distinctio reiciendis aut quidem adipisci fugiat. Illum.
+
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolorem nostrum corporis aliquam, aperiam aut corrupti dolore quibusdam sequi earum numquam deserunt cumque? Excepturi illum maxime est eveniet saepe pariatur. Consequatur obcaecati sint facilis? Neque placeat molestias impedit delectus blanditiis illum eligendi consectetur, aliquam obcaecati quo magnam nulla, explicabo fugit ratione autem id ex voluptate maiores cumque incidunt minima quis! Repellat autem rem, adipisci omnis architecto ipsa et id quis consectetur quam reiciendis dignissimos voluptates, inventore commodi asperiores delectus! Labore, tenetur perspiciatis! Velit inventore magnam corrupti quas quis ullam minus labore quisquam, sunt non. Sequi, ipsam! Esse, iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam consequuntur repellendus, dicta velit modi et animi adipisci voluptates reiciendis molestias nisi quas sit minima, consequatur nesciunt temporibus quidem inventore. Omnis, corrupti ratione obcaecati esse placeat repellat fuga, earum porro tempore aliquid asperiores! Inventore sequi perspiciatis itaque, voluptate ut, architecto at quasi expedita assumenda cumque fugit provident ratione aliquid quisquam earum a beatae quaerat, aperiam culpa error voluptas. Dicta, eos maiores eligendi doloribus doloremque tempore excepturi dolores aut impedit quasi. Tempore nulla repellat, dicta enim officiis, modi molestiae incidunt fuga tempora eaque rem distinctio reiciendis aut quidem adipisci fugiat. Illum.
+
+    div.max-width-1.m-auto
+        hr
+
+    div.blogpost.max-width-1.m-auto.my2.font1
+        h1 People who read this also read...
+        .more-post-container
+            .blog-content.more-post
+                .blog-article-img
+                    img(src="../static/img/6.jpg", alt="article")
+                .blog-article-content
+                    h3 
+                        a(href="/blogpost") Machine Learning Guide step by step from Begininig
+                    div Author Name
+                    span 06 January | 7 min read 
+
+            .blog-content.more-post
+                .blog-article-img
+                    img(src="../static/img/2.jpg", alt="article")
+                .blog-article-content
+                    h3 
+                        a(href="/blogpost") Copywriting Guide step by step from Begininig
+                    div Author Name
+                    span 06 January | 7 min read 
+
+            .blog-content.more-post
+                .blog-article-img
+                    img(src="../static/img/3.jpg", alt="article")
+                .blog-article-content
+                    h3 
+                        a(href="/blogpost") Affiliate Marketing Guide step by step from Begininig
+                    div Author Name
+                    span 06 January | 7 min read 

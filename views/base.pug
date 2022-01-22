@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    block title 
+    link(rel="apple-touch-icon", sizes="180x180", href="../static/img/favicon_io/apple-touch-icon.png")
+    link(rel="icon", type="image/png", sizes="32x32", href="../static/img/favicon_io/favicon-32x32.png")
+    link(rel="icon", type="image/png", sizes="16x16", href="../static/img/favicon_io/favicon-16x16.png")
+    link(rel="manifest" href="../static/img/favicon_io/site.webmanifest" )
+    block style 
+    block scripts
+
+  body
+    nav.navigation.max-width-1.m-auto.my2
+        div.nav-left 
+            a(href="/") 
+                span 
+                    img(src="../static/img/logo.png" width="94px" alt="iCoder")
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/contact") Contact]
+        div.nav-right 
+            form #[a(href="/search")]
+                input(name="query", type="text", class="form-control", id="", placeholder="Article Search")
+            button.btn Search 
+    
+    .max-width-1.m-auto
+        hr
+
+    block content
+    footer.footer 
+        a(href="https://www.vecteezy.com/free-vector/medication")  Vectors by Vecteezy
+        p Copyright &copy; iBlog.com

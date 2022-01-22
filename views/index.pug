@@ -1,0 +1,110 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/css/utility.css
+      include ../static/css/style.css
+      include ../static/css/phone.css 
+      title iBlog - Heaven for Blogers
+  body
+    nav.navigation.max-width-1.m-auto.my2
+        div.nav-left 
+            a(href="/") 
+                span 
+                    img(src="../static/img/logo.png" width="94px" alt="iCoder")
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Contact]
+        div.nav-right 
+            form(action="/search.html", method="get") 
+                input(name="query", type="text", class="form-control", id="", placeholder="Article Search")
+            button.btn Search 
+    
+    div.max-width-1.m-auto
+        hr
+
+    div.content.max-width-1.m-auto.my2
+        .content-left 
+            h1 Heaven for Bloggers
+            p iCoder welcomes bloggers to write their bloggers in their pages because of huge consumer of this blog. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati omnis odio accusamus, recusandae ut pariatur laborum fugit velit doloribus praesentium commodi temporibus ea harum cumque eveniet, quae suscipit quam at dolorum atque ab reprehenderit. Sint, numquam. Quis possimus illum nulla esse saepe consectetur odio, repellendus nemo voluptas aliquid cumque tenetur
+        .content-right 
+            img(src="../static/img/3.jpg", alt="iBlog")
+
+    div.max-width-1.m-auto
+        hr
+
+    div.blog-contents.max-width-1.m-auto.my2.font1
+        .year-box 
+            div 
+                h3 Year
+            div 
+                input(type="radio" name="year" id="" )
+                |  2019
+                input(type="radio" name="year" id="" )
+                |  2020
+
+        h1 Featured Articles
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/5.svg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/4.svg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/3.jpg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/2.jpg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/home.jpg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/5.svg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+        div.blog-content
+            .blog-article-img
+                img(src="../static/img/4.svg", alt="article")
+            .blog-article-content
+                h3 Lorem ipsum dolor sit amet consectetur adipisicing.
+                div Author Name
+                span 06 January | 7 min read 
+
+    footer.footer 
+        a(href="https://www.vecteezy.com/free-vector/medication")  Vectors by Vecteezy
+        p Copyright &copy; iBlog.com
+
+    script
+      include ../static/js/script.js

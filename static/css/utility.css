@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-colour: #90f0df;
+  --font-1: "Roboto", sans-serif;
+  --font-2: "Ubuntu", sans-serif;
+}
+
+.font1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.font2{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my2{
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 9px 20px;
+  background-color: #80808045;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.btn:hover{
+    background-color: var(--main-bg-colour);
+    color: white;
+    /* font-weight: 800;  */
+}

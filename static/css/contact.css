@@ -1,0 +1,40 @@
+.form-control{
+  margin: 11px 15px;
+}
+
+.contact {
+  min-height: 90vh; 
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  background: url(../static/img/home.jpg);
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  border-radius: 9px;
+  z-index: -1;
+}
+
+.contact h1{
+    padding: 13px 20px; 
+}
+
+.form-box input,
+.form-box textarea {
+  padding: 10px 9px;
+  margin: 9px 16px;
+  width: 60vw;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.btn{
+    margin: 10px 20px;
+    cursor: pointer;
+}

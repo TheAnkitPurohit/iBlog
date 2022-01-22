@@ -1,0 +1,54 @@
+
+
+
+.post-img {
+  height: 450px;
+  overflow: hidden;
+}
+
+.post-img::after {
+  content: "";
+  position: absolute;
+  background: url("../static/img/blogpost.jpg") no-repeat center center/cover;
+  width: 100%;
+  height: inherit;
+  opacity: 0.7;
+  /* z-index: -1; */
+}
+
+.blogpost h1 {
+  text-align: center;
+}
+
+.blogpost p{
+font-size: 1.1rem;
+}
+
+.more-post-container {
+  display: flex;
+}
+
+.more-post {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Blog Post Meta  */
+.blogpost-meta {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.author-info{
+    margin: 12px 0;
+}
+
+.author-info div{
+    padding: 4px 0px;
+    font-family: var(--font-2);
+}
+
+.social img{
+  padding: 0 4px;
+}
