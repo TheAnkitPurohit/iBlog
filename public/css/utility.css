@@ -11,12 +11,12 @@
   --font-2: "Ubuntu", sans-serif;
 }
 
-.font1{
-  font-family: 'Roboto', sans-serif;
+.font1 {
+  font-family: "Roboto", sans-serif;
 }
 
-.font2{
-  font-family: 'Ubuntu', sans-serif;
+.font2 {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .max-width-1 {
@@ -31,7 +31,7 @@
   margin: auto;
 }
 
-.my2{
+.my2 {
   margin-top: 20px;
 }
 
@@ -44,8 +44,7 @@
   transition: all ease-in-out 0.3s;
 }
 
-.btn:hover{
-    background-color: var(--main-bg-colour);
-    color: white;
-    /* font-weight: 800;  */
+.btn:hover {
+  background-color: var(--main-bg-colour);
+  color: white;
 }

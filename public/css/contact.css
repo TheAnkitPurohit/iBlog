@@ -13,7 +13,7 @@
 .contact::before {
   content: "";
   position: absolute;
-  background: url(../static/img/home.jpg);
+  background: url("../img/home/home.jpg");
   width: 100%;
   height: inherit;
   opacity: 0.15;

@@ -2,17 +2,17 @@
   "name": "icoder",
   "version": "1.0.0",
   "description": "Blog for coders",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app.js"
+    "start": "node src/app.js"
   },
   "author": "ankit",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "hbs": "^4.2.0",
     "mongoose": "^5.13.13",
-    "nodemon": "^2.0.15",
-    "pug": "^3.0.2"
+    "nodemon": "^2.0.15"
   }
 }
