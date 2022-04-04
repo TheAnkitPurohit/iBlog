@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/home/logo.png" type="image/png">
+    <link rel="shortcut icon" href="img/home/logo.png" type="image/png" />
     <link rel="stylesheet" href="css/utility.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/about.css" />
@@ -12,7 +12,31 @@
     <title>About Us - iBlog</title>
   </head>
   <body>
-    {{>nav}}
+    <!-- navbar  -->
+    <nav class="navigation max-width-1 m-auto my2">
+      <div class="nav-left">
+        <a href="index.html">
+          <span><img src="img/home/logo.png" width="94px" alt="" /></span>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form>
+          <input
+            type="text"
+            class="form-control"
+            name="query"
+            id=""
+            placeholder="Article Search"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
 
     <!-- divider  -->
     <div class="max-width-1 m-auto"><hr /></div>
@@ -66,6 +90,12 @@
       </p>
     </div>
 
-   {{>footer}}
+    <!-- footer -->
+    <footer class="footer">
+      <a href="https://www.vecteezy.com/free-vector/medication"
+        >Vectors by Vecteezy</a
+      >
+      <p>Copyright &copy; iBlog.com</p>
+    </footer>
   </body>
 </html>

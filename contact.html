@@ -12,7 +12,31 @@
     <title>Contact Us - iBlog</title>
   </head>
   <body>
-    {{>nav}}
+    <!-- navbar  -->
+    <nav class="navigation max-width-1 m-auto my2">
+      <div class="nav-left">
+        <a href="index.html">
+          <span><img src="img/home/logo.png" width="94px" alt="" /></span>
+        </a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form>
+          <input
+            type="text"
+            class="form-control"
+            name="query"
+            id=""
+            placeholder="Article Search"
+          />
+          <button class="btn">Search</button>
+        </form>
+      </div>
+    </nav>
 
     <div class="max-width-1 m-auto"><hr /></div>
 
@@ -60,7 +84,13 @@
         <button type="submit" class="btn">Submit</button>
       </form>
     </div>
-    
-    {{>footer}}
+
+    <!-- footer -->
+    <footer class="footer">
+      <a href="https://www.vecteezy.com/free-vector/medication"
+        >Vectors by Vecteezy</a
+      >
+      <p>Copyright &copy; iBlog.com</p>
+    </footer>
   </body>
 </html>

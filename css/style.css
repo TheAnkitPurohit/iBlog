@@ -35,8 +35,9 @@
   font-size: 1.2rem;
 }
 
-.navigation ul li a:hover {
-  color: var(--main-bg-colour);
+.navigation ul li a:hover,
+.active {
+  color: var(--main-bg-colour) !important;
   font-weight: bold;
 }
 
